@@ -6,4 +6,9 @@
     text-decoration: none;
 }
 
+.card{
+    height: 200px!important;
+    text-align: center;
+}
+
 

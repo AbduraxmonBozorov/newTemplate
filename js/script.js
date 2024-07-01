@@ -30,7 +30,8 @@ function getUsers() {
 
 function createCard(user) {
     return `
-        <div class="card col-4 " id="${Date.now()}">
+        <div class="col-4">
+            <div class="card" id="${Date.now()}">
                 <h2>${user.ism}</h2>
                 <h2>${user.fam}</h2>
                 <p>${user.yosh}</p>
@@ -38,6 +39,8 @@ function createCard(user) {
                     <button data-id="${Date.now()}" class="btn btn-danger">Delete</button>
                 </div>
             </div>
+        </div>
+        
     `
 }
 
